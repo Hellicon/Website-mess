@@ -1,0 +1,39 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+
+input {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 20px 12px 20px;
+}
+
+input[type=text] {
+  background-color:lightgrey;
+}
+
+input[type=submit] {
+  background-color: grey;
+}
+
+input[type=text]:focus {
+  background-color:lightblue;
+}

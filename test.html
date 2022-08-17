@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="text/javascript" src="../scripts/code.js"></script>
+  </head>  
+  <body>
+    <h1>This is heading #1</h1>
+
+    <h2>This is heading #2</h2>
+
+    <form id="myForm" onsubmit="validateForm(); return false">
+      <input   type="text" id="fName" placeholder="First Name"><br>
+      <input   type="text" id="lName" placeholder="Last Name"><br>
+      <button onsubmit="validateForm()">Submit</button>
+    </form>
+
+  <!-- This is commented out
+  <i class="material-icons">search</i>
+  <i class="material-icons">favorite</i>
+  <i class="material-icons">attachment</i>
+  <i class="material-icons">computer</i>
+  <i class="material-icons">traffic</i>
+  -->
+
+  <br>
+  <p>This is the name you entered: 
+  <div id="yourOutputDiv"></div>
+  </p>
+
+  </body>
+</html>
